@@ -1,5 +1,5 @@
 // src/services/signaling.ts
 export const connectSignaling = (id: string) => {
-  const ws = new WebSocket(`http://172.20.10.3:8080/ws/roomId=${id}`);
+  const ws = new WebSocket(`https://wonderful-maamoul-186a4d.netlify.app/ws/roomId=${id}`);
   return ws;
 };
